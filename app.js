@@ -27,7 +27,7 @@ function updateScores(player, opponent) {
         player.display.textContent = player.score;
     }
 }
-
+// new comment
 
 p1.button.addEventListener('click', function () {
     updateScores(p1, p2)
